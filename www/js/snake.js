@@ -14,7 +14,6 @@ function Snake(config) {
     this.sizeV = config.size.v || 50;
     this.gameZoneArr = this.createGameArr();
     
-
     this.score = 0;
     this.level = 'worm';
 
